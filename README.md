@@ -1,4 +1,3 @@
-# Functions-and-Errors---ETH-AVAX
 # MySmartContract
 
 ## Overview
