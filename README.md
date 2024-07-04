@@ -35,6 +35,10 @@ To deploy and interact with this smart contract, you can use Remix, an online So
                 revert("Value cannot be negative");
             }
             value = newValue;
+    
+        function checkAssertion(uint256 testValue) public pure {
+        // This will always be true since uint256 cannot be negative
+        assert(testValue >= 0);
         }
     }
     ```
